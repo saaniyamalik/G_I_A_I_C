@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-size: cover;
+  background-image: url(./image/crypto-currency.jpg);
+}
+
+.container{
+  width: 30%;
+  height: 500px;
+  margin: auto;
+  margin-top: 72px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 24%;
+}
+.container h1{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 12px;
+  color:  skyblue;
+
+}
+.container p{
+  font-size: 12px;
+  padding-left: 20px;
+  
+}
+
+.container span{
+  font-size: 24px;
+  font-weight: bold;
+  color: lavender;
+  margin-right: 13%;
+  text-decoration: underline;
+  
+}
