@@ -1,0 +1,424 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.parentContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 1440;
+    height: 102;
+    grid: 10px;
+}
+.header-picture{
+    height: 40px;
+    width: 370px;
+    margin-top: 10px;
+}
+
+
+.picture{
+    width: 53px;
+    height: 70px;
+    margin: 10px;
+    /* border: 2px solid black; */
+}
+
+.header-text{
+    color: #333333;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-family:Roboto Condensed;
+    margin: 15px;
+    padding: 5px;
+}
+
+li:hover{
+    text-decoration: overline underline;
+}
+.mainPicture{
+    width: 770px;
+    height: 829px;
+}
+.Mainheading{
+    height: 64px;
+    width: 277px;
+    font-family: TT Hoves;
+    font-size: 64px;
+    color: gray;
+    margin-top: 80%;
+
+    
+}
+.Mainheading1{
+    height: 64px;
+    width: 277px;
+    font-family: TT Hoves;
+    font-size: 64px;
+}
+
+
+
+
+
+
+/* CSS for About page */
+.aboutContainer{
+    height: 435px;
+    width: 1170px;
+    /* border: 2px solid black; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.picture1{
+    height: 269px;
+    width: 270px;
+    margin:20px;
+    /* border: 3px solid black; */
+}
+.picture2{
+    height: 140px;
+    width: 270px;
+    margin:20px;
+    /* border: 3px solid black; */
+}
+.picture3{
+    height: 345px;
+    width: 270pxs;
+    /* border: 3px solid black; */
+}
+h2{
+    width: fit-content;
+    height: 64px;
+    font-size: 50px;
+    color: gray;
+    margin-bottom: 20px;
+    margin: 5px;
+    /* border: 3px solid black;  */
+
+}
+
+.text-container{
+    height: 400px;
+    width: 30%;
+    margin: 15px;
+    font-family: Roboto;
+    text-align: justify;
+}
+.readmore{
+    height: 71px;
+    width: 222px;
+    /* border: 2px  solid black; */
+}
+.readmore:hover{
+    border: 4px solid gray;
+}
+
+
+/* CSS for Main Focus/Mission Statement  */
+.parent-statement{
+    width: 1170px;
+    height: 268px;
+    /* border: 2px solid black; */
+    margin: 60px;
+    /* display: flex; */
+}
+.child-statement{
+    display: flex;
+    justify-content: space-between;
+}
+.statement-1{
+    width: 413px;
+    height: 144px;
+    display: flex;
+    margin: 10px;
+    /* border: 5px solid black; */
+}
+.statement-2{
+    height: 144px;
+    width: 570px;
+    margin-left:70px;
+    display: flex;
+    margin: 10px;
+}
+.one{
+    width: 104px;
+    height: 140px;
+}
+.two{
+    width: 120px;
+    height: 140px;
+}
+.statement-text{
+    margin: 20px;
+    width: 420px;
+    height: 144px;
+    font-size: 20px;
+}
+
+/* css for projects */
+.parent-project{
+    height: 765px;
+    width: 1170px;
+    margin: 60px;
+    /* border: 3px solid black; */
+}
+.pro1{
+    width: 570px;
+    height: 255px;
+    margin: 15px;
+}
+.pro2{
+    width: 570px;
+    height: 255px;
+    margin: 15px;
+}
+.pro3{
+    width: 270px;
+    height: 255px;
+    margin: 15px;
+}
+.pro4{
+    width: 470px;
+    height: 255px;
+    margin: 15px;
+}
+.pro5{
+    width: 370px;
+    height: 255px;
+    margin: 15px;
+}
+.pic1-container{
+    display: flex;
+}
+.project-button{
+    height: 71px;
+    width: 221px;
+    background-color: #2C2C2C;
+    color: white;
+    margin-left: 82.5%;
+    /* border: 3px solid black; */
+}
+
+/* CSS for Contact Us   */
+.parent-form{
+    height: 603px;
+    width: 1170px;
+    margin: 60px;
+    /* border: 2px solid black; */
+}
+.child-form{
+    display: flex;
+    /* border: 2px solid black; */
+}
+.contact-form{
+    height: 46px;
+    width: 410px;
+    background-color: rgb(228, 224, 224);
+    margin: 5px;
+}
+
+input{
+    padding-left: 20px;
+    
+}
+.contact-form-message{
+    background-color: rgb(228, 224, 224);
+    margin: 5px;
+    height: 138px;
+    width: 410px;
+}
+.contact-length{
+    width: 500px;
+    /* border: 2px solid black; */
+}
+.contact-pic{
+    width: 749px;
+    height: 369px;
+}
+.contact-button{
+    height: 71px;
+    width: 221px;
+    background-color: #2C2C2C;
+    color: white;
+    margin: 5px;
+}
+
+
+/* css for footer  */
+.parent-footer{
+    display: flex;
+    justify-content: space-between;
+    height: 417px;
+    width: 100%;
+    background-color: #2C2C2C;
+}
+.footer-pic{
+    margin-top: 60px;
+}
+.info{
+    color: white;
+    margin-top: 60px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+}
+li{
+    margin-top: 20px;
+}
+.Contact{
+    margin-top: 60px;
+    color: white;
+}
+.footer-icon-text{
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+.footer-icon{
+    width: 16px;
+    height: 16px;
+    gap: 15px;
+}
+.picture{
+    width: 25% ;
+}
+.info{
+    width: 25%;
+}
+.contact{
+    width: 25%;
+    
+}
+.socialmedia{
+    width: 25%;
+    margin-top: 60px;
+}
+.footer-icons{
+    display: flex;
+}
+.social-icon{
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+.footer-icons{
+    display: flex;
+}
+/* CSS for gallery  */
+.gallery-heading{
+    height: 128px;
+    width: 277px;
+    margin: 70px;
+}
+.MainTopic{
+    height: 64px;
+    width: 277px;
+    font-family: TT Hoves;
+    font-size: 64px;
+    color: gray;
+}
+.MainTopicbelow{
+    height: 64px;
+    width: 277px;
+    font-family: TT Hoves;
+    font-size: 64px;
+    color: black;
+}
+.gallery-pictures{
+    display: flex;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+.gallery-pic{
+    width: 210px;
+    height: 260px;
+    margin: 12px;
+}
+
+/* css for main projects  */
+.sample-project{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 435px;
+    margin: 60px;
+    /* border: 3px solid black; */
+}
+.project-pic{
+    width: 670px;
+    height: 435px;
+}
+.sample-text{
+    width: 50%;
+    margin: 20px;
+}
+.view-more{
+    height: 71px;
+    width: 221px;
+    box-shadow: 00 00 2px 2px gray;
+    color: black;
+    margin-top: 60px;
+}
+.sample-para{
+    margin-top: 50px;
+}
+
+
+/* css for main contact us page  */
+.fullscreen{
+    width: 1260px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    font-size: 25px;
+    font-style: bold;
+}
+.contact-button{
+    height: 71px;
+    width: 221px;
+    margin-top: 20px;
+}
+.MapPicture{
+      
+     /* margin: 50px; */
+
+    
+}
+.contact-picture{
+    width: 600px; 
+     height: 535px;
+     margin-top: 20px;
+     border: 1px solid black;
+}
+
+/* css for sample project1 */
+.sampleproject1{
+    width: 1170px;
+    height: 435px;
+    opacity: 100%;
+}
+.sampleproject-pic{
+    
+    margin: 60px;
+}
+.mainbody{
+    display: flex;
+    justify-content: space-evenly;  
+    margin: 60px; 
+}
+.sampleproject2{
+    width: 419px;
+    height: 405px;
+}
+.project-text{
+    width: 721px;
+    height: 428px;
+    margin-left: 25px;
+}
